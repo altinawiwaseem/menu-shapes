@@ -1,5 +1,6 @@
 @import url(./arrow-menu.css);
 @import url(./vertical-line.css);
+@import url(./arrow.css);
 *{
     box-sizing: border-box;
     padding: 0;
