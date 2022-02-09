@@ -1,3 +1,7 @@
+.x-menu:hover{
+  border: 2px solid black;
+  transition: .6s ease-in-out;
+}
 /* rotate  first div */
 .x-menu:hover :nth-child(1) {
   animation: x-menu-first-line 0.5s ease-in forwards;
