@@ -1,8 +1,8 @@
 /* rotate  first div */
 .x-menu:hover :nth-child(1) {
-  animation: first-line 0.5s ease-in forwards;
+  animation: x-menu-first-line 0.5s ease-in forwards;
 }
-@keyframes first-line {
+@keyframes x-menu-first-line {
   0% {
     transform: translate(0);
   }
@@ -23,10 +23,10 @@
 
 /* rotate the third div  */
 .x-menu:hover :nth-child(3) {
-  animation: third-line 0.5s ease-in-out forwards;
+  animation: x-menu-third-line 0.5s ease-in-out forwards;
   position: absolute;
 }
-@keyframes third-line {
+@keyframes x-menu-third-line {
   0% {
     transform: translate(0);
   }

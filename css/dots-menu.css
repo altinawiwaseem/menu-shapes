@@ -1,0 +1,51 @@
+/* resize  first div */
+.dots-menu:hover :nth-child(1) {
+    animation: dots-arrow-first-line .5s ease-in forwards;
+  }
+  @keyframes dots-arrow-first-line {
+    0% {
+      width: 2.5rem;
+    }
+    50%{
+        width: 1.5rem;
+    }
+    
+    100% {
+      width: 0.4rem;;
+    }
+  }
+  /* resize the middle line */
+  .dots-menu:hover :nth-child(2) {
+    animation: dots-arrow-second-line 0.4s ease-in forwards; }
+
+    @keyframes dots-arrow-second-line {
+        0% {
+          width: 2.5rem;
+        }
+        50%{
+            width: 1rem;
+        }
+        
+        100% {
+          width: 0.4rem;;
+        }
+      }
+  
+  
+  /* resize the third div  */
+  .dots-menu:hover :nth-child(3) {
+    animation: dots-arrow-third-line .2s ease-in forwards; }
+
+    @keyframes dots-arrow-third-line {
+        0% {
+          width: 2.5rem;
+        }
+        50%{
+            width: 1rem;
+        }
+        
+        100% {
+          width: 0.4rem;;
+        }
+      }
+  
