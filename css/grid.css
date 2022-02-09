@@ -1,0 +1,37 @@
+#grid {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+    /* border: 1px black solid; */
+}
+#grid div {
+  width: 2.5rem;
+  height: .2rem;
+  background-color: black;
+  border: 1px black solid;
+  align-self: center;
+  justify-self: center;
+  
+}
+
+#grid span {
+  display: flex;
+  flex-direction: column;
+  width: 4px;
+  height: 4px;
+  background-color: black;
+  align-self: center;
+  justify-self: center;
+  opacity: 0;
+}
+
+#grid:hover > div{
+    width: 4px;
+    height: 4px;
+    
+}
+#grid:hover span{
+    opacity: 1;
+} 
