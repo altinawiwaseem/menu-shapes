@@ -18,8 +18,6 @@
 }
 /* create the invisible dots from span */
 #grid span {
-  display: flex;
-  flex-direction: column;
   width: 4px;
   height: 4px;
   background-color: black;
