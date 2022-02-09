@@ -1,6 +1,6 @@
 @import url(./arrow-menu.css);
 @import url(./vertical-line.css);
-/* @import url(./arrow.css); */
+@import url(./arrow.css);
 @import url(./x-menu.css);
 @import url(./dots-menu.css);
 * {

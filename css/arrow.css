@@ -11,10 +11,10 @@
     0%{
         transform: translate(0);
     }
-    33%{ transform: translateY(100%);
+    
 
-    }
-    66%{
+    
+    50%{
         
         transform:translateX(-100%) rotate(-90deg) ;
         width: 1rem;
