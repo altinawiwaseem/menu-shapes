@@ -29,11 +29,13 @@
 }
 /* resize the div lines */
 #grid:hover > div{
+    transition: .4s;
     width: 4px;
     height: 4px;
     
 }
 /* make the dots visible */
 #grid:hover span{
+    transition: .5s;
     opacity: 1;
 } 
