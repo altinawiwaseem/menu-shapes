@@ -1,0 +1,42 @@
+/* rotate  first div */
+.x-menu:hover :nth-child(1) {
+  animation: first-line 0.5s ease-in forwards;
+}
+@keyframes first-line {
+  0% {
+    transform: translate(0);
+  }
+  33% {
+    transform: rotate(15deg);
+  }
+  66% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+/* remove the middle line */
+.x-menu:hover :nth-child(2) {
+  display: none;
+}
+
+/* rotate the third div  */
+.x-menu:hover :nth-child(3) {
+  animation: third-line 0.5s ease-in-out forwards;
+  position: absolute;
+}
+@keyframes third-line {
+  0% {
+    transform: translate(0);
+  }
+  33% {
+    transform: rotate(-15deg);
+  }
+  66% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}
