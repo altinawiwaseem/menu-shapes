@@ -4,8 +4,9 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-    /* border: 1px black solid; */
+
 }
+/* create three parallel live */
 #grid div {
   width: 2.5rem;
   height: .2rem;
@@ -15,7 +16,7 @@
   justify-self: center;
   
 }
-
+/* create the invisible dots from span */
 #grid span {
   display: flex;
   flex-direction: column;
@@ -26,12 +27,13 @@
   justify-self: center;
   opacity: 0;
 }
-
+/* resize the div lines */
 #grid:hover > div{
     width: 4px;
     height: 4px;
     
 }
+/* make the dots visible */
 #grid:hover span{
     opacity: 1;
 } 
