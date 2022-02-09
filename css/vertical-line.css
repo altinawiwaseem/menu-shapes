@@ -1,0 +1,81 @@
+
+
+/* rotate and move the first div to vertical */
+.vertical-line:hover :nth-child(1){
+    animation: vertical 1s ease-in forwards ;
+    position: absolute;
+    
+}
+@keyframes vertical{
+    0%{
+        transform: translate(0);
+    }
+    33%{ transform: rotate(30deg);
+
+    }
+    66%{
+        
+        transform: rotate(60deg) ;
+        
+        
+        
+    }
+    100%{
+        
+        transform: translateX(-45%) rotate(90deg);
+
+    }
+}
+/* rotate and move the second div to vertical */
+.vertical-line:hover :nth-child(2){
+    animation: middle 1s ease-in-out forwards ;
+    position: absolute;
+    
+}
+
+@keyframes middle{
+    0%{
+        transform: translate(0);
+    }
+    33%{ transform: rotate(30deg);
+
+    }
+    66%{
+        
+        transform: rotate(60deg) ;
+        
+        
+        
+    }
+    100%{
+        
+        transform: rotate(90deg);
+
+    }
+}
+/* rotate and move the thied div to vertical */
+.vertical-line:hover :nth-child(3){
+    animation: third-line 1s ease-in-out forwards ;
+    position: absolute;
+    
+}
+@keyframes third-line{
+    0%{
+        transform: translate(0);
+    }
+    33%{ transform: rotate(30deg);
+
+    }
+    66%{
+        
+        transform: rotate(60deg) ;
+        
+        
+        
+    }
+    100%{
+        
+        transform: translateX(45%) rotate(90deg);
+
+    }
+}
