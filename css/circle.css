@@ -1,0 +1,12 @@
+.circle{
+    border: 2px black solid;
+   /*  border-radius: 100%; */
+    transition: 1s ease-in-out;
+}
+/* .circle :nth-child(2){
+    width: 3rem;
+} */
+.circle:hover{
+    border-radius: 100%;
+    transform: rotate(-90deg);
+}

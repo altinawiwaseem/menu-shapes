@@ -4,6 +4,7 @@
 @import url(./x-menu.css);
 @import url(./dots-menu.css);
 @import url(./grid.css);
+@import url(./circle.css);
 * {
   box-sizing: border-box;
   padding: 0;
