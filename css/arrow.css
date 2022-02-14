@@ -6,6 +6,7 @@
     animation: head-arrow-left 1s ease-in-out forwards ;
     position: absolute;
     
+    
 }
 @keyframes head-arrow-left{
     0%{
