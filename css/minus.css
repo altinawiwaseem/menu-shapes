@@ -1,0 +1,34 @@
+.minus:hover :nth-child(1) {
+  animation: minus-first-line 0.5s forwards;
+}
+@keyframes minus-first-line {
+  0% {
+    transform: translatey(100%);
+  }
+  33%{
+      transform: translateY(200%);
+  }
+  66%{
+      transform: translateY(300%);
+  }
+  100%{
+            transform: translateY(410%);
+  }
+}
+.minus:hover :nth-child(3){
+    animation: minus-third-line .05s forwards ;
+}
+@keyframes minus-third-line{
+    0% {
+        transform: translatey(-100%);
+      }
+      33%{
+          transform: translateY(-200%);
+      }
+      66%{
+          transform: translateY(-300%);
+      }
+      100%{
+                transform: translateY(-410%);
+      }
+}

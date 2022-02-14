@@ -5,6 +5,7 @@
 @import url(./dots-menu.css);
 @import url(./grid.css);
 @import url(./circle.css);
+@import url(./minus.css);
 * {
   box-sizing: border-box;
   padding: 0;
@@ -25,6 +26,7 @@ main {
   flex-direction: column;
   border: 1px black solid;
   background-color: #ff7300a6;
+ 
 }
 section {
   display: flex;
@@ -34,6 +36,7 @@ section {
   padding: 2%;
   justify-content: space-around;
   align-items: center;
+  
 }
 .menu-box {
   width: 3rem;
@@ -43,10 +46,12 @@ section {
   align-items: center;
   flex-direction: column;
   cursor: pointer;
+  
 }
 .menu-box div {
   width: 2.5rem;
   height: 0.2rem;
   background-color: black;
   border: 1px black solid;
+  
 }
