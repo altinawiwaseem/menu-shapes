@@ -7,6 +7,7 @@
 @import url(./circle.css);
 @import url(./minus.css);
 @import url(./horizontal-dots.css);
+@import url(./slide.css);
 * {
   box-sizing: border-box;
   padding: 0;

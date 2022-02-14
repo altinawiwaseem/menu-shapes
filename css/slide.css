@@ -1,0 +1,20 @@
+
+.slide:hover div {
+    transition: .7s ease-in;
+    -webkit-transform: rotate(30deg);
+}
+.slide:hover :nth-child(1){
+    width: 1rem;
+    
+    
+}
+.slide:hover :nth-child(2){
+    width: 2rem;
+    
+    
+}
+.slide:hover :nth-child(3){
+    width: 2.5rem;
+    
+    
+}
