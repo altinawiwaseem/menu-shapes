@@ -1,34 +1,41 @@
+
 .minus:hover :nth-child(1) {
-  animation: minus-first-line 0.5s forwards;
+  animation: minus-first-line 0.5s ease-in-out forwards;
+  position: absolute;
+  
 }
 @keyframes minus-first-line {
   0% {
-    transform: translatey(100%);
+    transform: translateY(0%);
+    
   }
-  33%{
-      transform: translateY(200%);
+  
+  50% {
+    transform: translateY(50%);
+    
   }
-  66%{
-      transform: translateY(300%);
-  }
-  100%{
-            transform: translateY(410%);
+  100% {
+    transform: translateY(calc(100% - 0.2rem));
+    
   }
 }
-.minus:hover :nth-child(3){
-    animation: minus-third-line .05s forwards ;
+.minus:hover :nth-child(3) {
+  animation: minus-third-line 0.05s ease-in-out forwards;
+  position: absolute;
+    
 }
-@keyframes minus-third-line{
-    0% {
-        transform: translatey(-100%);
-      }
-      33%{
-          transform: translateY(-200%);
-      }
-      66%{
-          transform: translateY(-300%);
-      }
-      100%{
-                transform: translateY(-410%);
-      }
+@keyframes minus-third-line {
+  0% {
+    transform: translatey(0%);
+    
+  }
+  
+  50% {
+    transform: translateY(-50%);
+    
+  }
+  100% {
+    transform: translateY(calc(-100% + 0.2rem));
+    
+  }
 }
